@@ -1,0 +1,41 @@
+import requests
+import pandas as pd
+from bs4 import BeaatifulSoup
+
+df = pd.read_excel("CREA-SC 2.0.xlsx", sheet_name=0)
+df.head()
+
+df.drop(columns=['Unnamed: 4','Unnamed: 6'], axis=1)
+
+CNPJ = df["CNPJ"]
+sitelist = df["Site"]
+sitelist.head()
+
+test = "32.418.841/0001-00"
+print(test)
+
+cpf = test[0:2] + test[3:6] + test[7:10] + test[11:15] + test[16:]
+print(cpf)
+
+sitelist[0]
+
+response = requests.get('sitelist[0]')
+
+"proxy = {
+    "https": 'https://158.177.252.170:3128',
+    "http": 'https://158.177.252.170:3128' 
+}
+response=requests.get('https://httpbin.org/ip', proxies=proxy)"
+
+content = response.content
+
+site = BeatifulSoup(content, 'html.parser')
+print(site.prettify())
+
+peneira1 = site.find('div', attrs={'class':'o que for aqui'})
+print(peneira1.prettify())
+
+peneira2 = peneira1.find('a', attrs={'class':'o que for aqui2'})
+print(peneira2.prettify())
+
+print(peneira2.texto)
