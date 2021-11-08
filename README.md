@@ -2,7 +2,7 @@
 
 Summary of all my personal and original projects data science projects.
 
-# Simple Projects:
+## Simple Projects:
 
 [**(S1) Email WebScraping with Automatic IP Proxy Switching:**]()
 
@@ -16,14 +16,13 @@ Owning an excel spreadsheet containing a list of thousands of CNPJs of companies
 
 [**(S5) My Personal Website:**]()
 
-# Data Science Projects:
-## Machine Learning / Deep Learning:
+## Data Science Projects:
+### Machine Learning / Deep Learning:
 
-## Computer Vision:
+### Computer Vision:
 [**(CV1) Real-Time Image Detection - Street Surveillance:**]()
 
-## Natural Language Processing:
+### Natural Language Processing:
 
-## Quantitative Finance:
+### Quantitative Finance:
 [**(QF1) Quantitative Finance System for Germany Stock Market Index:**]()
-
