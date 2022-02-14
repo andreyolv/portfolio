@@ -30,7 +30,7 @@ My Website edited and customized by me from a template.
 Soon
 
 ### Computer Vision:
-[**(CV1) Real-Time Image Detection - Street Surveillance:**](https://github.com/andreyolv/portfolio/tree/main/(CV1)%20Real-Time%20Image%20Detection%20-%20Street%20Surveillance)
+[**(CV1) Real-Time Image Detection - Street Surveillance (future):**](https://github.com/andreyolv/portfolio/tree/main/(CV1)%20Real-Time%20Image%20Detection%20-%20Street%20Surveillance)
 
 Camera with real-time identification of cars, dogs, cats and people passing on the street, with alarm, notification and remote access via bot telegram.
 
@@ -39,6 +39,6 @@ Camera with real-time identification of cars, dogs, cats and people passing on t
 Soon
 
 ### Quantitative Finance:
-[**(QF1) Quantitative Finance System for Germany Stock Market Index:**](https://github.com/andreyolv/portfolio/tree/main/(QF1)%20Quantitative%20Finance%20System%20for%20Germany%20Stock%20Market%20Index)
+[**(QF1) Quantitative Finance System for Germany Stock Market Index (future):**](https://github.com/andreyolv/portfolio/tree/main/(QF1)%20Quantitative%20Finance%20System%20for%20Germany%20Stock%20Market%20Index)
 
 Trading system for predicting signals of start and end microtrends for trade entries and exits based on price acceleration and volume in relevant graphic regions seeking to minimize the probability of stop loss triggering, containing risk management and management of portfolio. The algorithm interacts with the MetaTrader 5 platform.
