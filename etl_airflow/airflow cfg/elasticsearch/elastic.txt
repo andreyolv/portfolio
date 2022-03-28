@@ -1,0 +1,6 @@
+238 | remote_logging = False               		| remote_logging = True
+967 | host =									| host = http://elasticsearch:9200
+982 | write_stdout = False						| write_stdout =
+985 | json_format = False                       | json_format = True
+
+
