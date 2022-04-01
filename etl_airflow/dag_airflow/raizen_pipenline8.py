@@ -36,9 +36,9 @@ anos = [str(x) for x in list(range(2000,2021))]
 
 column_names_ordered = ["year_month", "uf", "product", "unit", "volume", "created_at"]
 
-telegram_chat_id = "5151128933"
+telegram_chat_id = "**********"
 
-telegram_token = "AAGOLy3wnyAOI6CRJhlG85d3Jg25RpyLBto"
+telegram_token = "***********"
 
 # [END defining variables]
 # --------------------------------------------------------------------------------------------------------
