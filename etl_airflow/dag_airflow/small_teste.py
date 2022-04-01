@@ -8,9 +8,9 @@ from airflow.operators.email import EmailOperator
 # [END import_module]
 # --------------------------------------------------------------------------------------------------------
 # [START defining variables]
-telegram_chat_id = "5151128933"
+telegram_chat_id = "***********"
 
-telegram_token = "AAGOLy3wnyAOI6CRJhlG85d3Jg25RpyLBto"
+telegram_token = "**************"
 # [END defining variables]
 # --------------------------------------------------------------------------------------------------------
 # [START default_args]
