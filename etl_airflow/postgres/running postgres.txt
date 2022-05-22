@@ -1,5 +1,0 @@
-- Verificar status do servidor postgresql:
-sudo system status postgresql
-
-- Iniciar pgadmin4:
-sudo /usr/pgadmin4/bin/setup-web.sh
