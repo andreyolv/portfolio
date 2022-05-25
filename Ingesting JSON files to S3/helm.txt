@@ -1,0 +1,83 @@
+# Adding a Chart Repository
+$ helm repo add bitnami https://charts.bitnami.com/bitnami
+$ helm repo list
+
+# Searching a Chart Repository
+$ helm search repo drupal
+$ helm search repo content
+$ helm search repo drupal --versions
+
+# Installing a Package
+$ helm install mysite bitnami/drupal
+$
+kubectl create ns first
+kubectl create ns second
+helm install --namespace first mysite bitnami/drupal
+helm install --namespace second mysite bitnami/drupal
+
+# Listing Your Installations
+$ helm list
+$ helm list --all-namespaces
+
+# Upgrading an Installation
+$ helm install mysite bitnami/drupal --set ingress.enabled=false
+$ helm upgrade mysite bitnami/drupal --set ingress.enabled=true
+$ helm repo update
+$ helm upgrade mysite bitnami/drupal
+$ helm upgrade mysite bitnami/drupal --version 6.2.22
+
+# Configuration Values and Upgrades
+$ helm install mysite bitnami/drupal --values values.yaml
+$ helm upgrade mysite bitnami/drupal
+ou
+$ helm install mysite bitnami/drupal --values values.yaml
+$ helm upgrade mysite bitnami/drupal --values values.yaml
+
+$ helm upgrade mysite bitnami/drupal --reuse-values
+
+# Uninstalling an Installation
+$ helm uninstall mysite
+$ helm uninstall mysite --namespace first
+
+# History and Rollbacks
+$ helm history wordpress
+$ helm rollback wordpress 2
+
+# Keeping History and Rolling Back
+$ helm uninstall wordpress --keep-history
+$ helm history wordpress
+$ helm rollback wordpress 4
+
+# The --generate-name and --name-template Flags
+$ helm install bitnami/wordpress --generate-name
+$ helm install bitnami/wordpress --generate-name --name-template "foo-{{ randAlpha 9 | lower }}"
+
+$ helm install drupal bitnami/drupal --namespace mynamespace
+$ helm install drupal bitnami/drupal --namespace mynamespace --create-namespace
+
+# Using helm upgrade --install
+$ helm upgrade --install wordpress bitnami/wordpress
+
+# The --wait and --atomic Flags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
