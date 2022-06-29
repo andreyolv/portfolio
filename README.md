@@ -24,20 +24,6 @@ A simple example of an interactive telegram bot.
 
 My Website edited and customized by me from a template.
 
-## Data Science Projects:
-### Machine Learning / Deep Learning:
-
-Soon
-
-### Computer Vision:
-[**(CV1) Real-Time Image Detection - Street Surveillance (future):**](https://github.com/andreyolv/portfolio/tree/main/(CV1)%20Real-Time%20Image%20Detection%20-%20Street%20Surveillance)
-
-Camera with real-time identification of cars, dogs, cats and people passing on the street, with alarm, notification and remote access via bot telegram.
-
-### Natural Language Processing:
-
-Soon
-
 ### Quantitative Finance:
 [**(QF1) Quantitative Finance System for Germany Stock Market Index (future):**](https://github.com/andreyolv/portfolio/tree/main/(QF1)%20Quantitative%20Finance%20System%20for%20Germany%20Stock%20Market%20Index)
 
